@@ -1,0 +1,13 @@
+# 发布仓库里只该有 4 个文件：IT工具箱.dat / version.json / README.md / .gitattributes
+# 其它一律是工具留下的临时文件，别让 `git add -A` 顺手带进来。
+
+# 发布助手的核对下载
+_publish_verify.dat
+_it_publish_verify.dat
+_jsdelivr_dl.dat
+
+# 客户端更新过程留下的临时文件（理论上不会出现在这里，防一手）
+_it_new.bin
+_it_old.exe
+_it_updater.exe
+_it_update.txt
